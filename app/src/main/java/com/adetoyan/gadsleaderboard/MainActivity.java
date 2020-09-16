@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.google.android.material.tabs.TabItem;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    ImageButton button;
+    Button button;
     /*private final LinkedList<String> mWordList = new LinkedList<>();
     private final LinkedList<String> iWordList = new LinkedList<>();*/
     private PagerAdapter mAdapter;
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar();
         getSupportActionBar().setTitle("     LEADERBOARD");
 
-        button = (ImageButton) findViewById(R.id.button);
+        button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -3,14 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
-    tools:context=".AreYouSure">
+    android:background="@android:color/transparent">
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_width="326dp"
+        android:layout_height="300dp"
         android:layout_centerInParent="true"
-        tools:background="@android:drawable/dialog_holo_light_frame">
+        tools:background="@drawable/rounded_shape">
 
         <ImageView
             android:id="@+id/cancel"
@@ -29,7 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/cancel"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="48dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="30dp"
             android:orientation="horizontal">
 
             <TextView
@@ -56,9 +56,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/confrimation_text"
             android:layout_alignEnd="@+id/confrimation_text"
-            android:layout_marginTop="78dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
-            android:background="@drawable/rounded_shape"
+            android:background="@drawable/yellow_outline"
             android:text="@string/yes"
             android:textColor="#ffae45" />
     </RelativeLayout>

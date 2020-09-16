@@ -7,8 +7,8 @@
     <string name="tab_1">These are the Learning Leaders</string>
     <string name="are_you_sure">Are you sure</string>
     <string name="yes">Yes</string>
-    <string name="submission_not_succesful">Submission not Succesful</string>
-    <string name="submission_succesful">Submission Succesful</string>
+    <string name="submission_not_succesful">Submission not Successful</string>
+    <string name="submission_succesful">Submission Successful</string>
     <string name="learning_leaders">Learning Leaders</string>
     <string name="skill_iq_leaders">Skill IQ Leaders</string>
     <string name="last_name">Last Name</string>
