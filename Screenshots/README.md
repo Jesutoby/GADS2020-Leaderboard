@@ -2,7 +2,7 @@
 
 ## Screenshots
 ## Splashscreen
-![splash screen](image.jpg)
+![splash screen](Splashscreen.png)
 
 ## Learning Leaders Tab
 ![Learning Leaders Tab](LearningLeaders.png)
